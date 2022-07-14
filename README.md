@@ -5,6 +5,10 @@ Descargar JAR atraves de https://github.com/YoanSinH/eesofka-Backend/releases/ta
 Iniciar MySQL en el puerto 3306
 *Recomendado usar Xampp
 
+## Importar DB
+Descargar DB https://github.com/YoanSinH/eesofka-Backend/blob/main/eesofka.sql
+Importar en PHPMyAdmin o SQLServer
+
 ## Iniciar API
 - Requiere Java 17
 - Abrir la consola en la ruta del JAR y ejecutarlo:
