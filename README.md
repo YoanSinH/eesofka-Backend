@@ -1,17 +1,19 @@
+La API esta desplegada en AWS y puede ser consultada en http://54.85.253.46:8080/api/nave
+
+# Instalación en local
+## Requerimientos
+- JDK 17
+
 ## Instalación
-Descargar JAR atraves de https://github.com/YoanSinH/eesofka-Backend/releases/tag/build
+- Descargar el JAR atraves de [https://github.com/YoanSinH/eesofka-Backend/releases/tag/build](https://github.com/YoanSinH/eesofka-Backend/releases)
 
-## Iniciar SQL
-Iniciar MySQL en el puerto 3306
-*Recomendado usar Xampp
+## Configuración
+- Descargar la base de datos https://github.com/YoanSinH/eesofka-Backend/blob/main/eesofka.sql e importarla. (No es necesario ya que se crea automaticamente)
+- Iniciar el servicio de MySQL en el puerto por defecto 3306. (phpmyadmin fue el usado)
 
-## Importar DB
-Descargar DB https://github.com/YoanSinH/eesofka-Backend/blob/main/eesofka.sql
-Importar en PHPMyAdmin o SQLServer
 
-## Iniciar API
-- Requiere Java 17
-- Abrir la consola en la ruta del JAR y ejecutarlo:
+## Ejecutar
+- Abrir la consola en la ruta del JAR descargado y ejecutarlo:
 `java -jar .\eesofka-0.0.1-SNAPSHOT.jar`
 
 ## Consultar
